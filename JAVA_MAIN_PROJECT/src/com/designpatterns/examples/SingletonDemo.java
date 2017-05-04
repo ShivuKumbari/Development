@@ -9,9 +9,6 @@ public class SingletonDemo {
 		Singleton s=Singleton.getInstance();
 		s.display();
 		
-		Class<? extends Singleton> sa=s.getClass();
-		System.out.println(sa);
-		
 		try
 		{
 		Class cls = Class.forName("com.designpatterns.examples.Singleton");

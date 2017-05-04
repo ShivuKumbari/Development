@@ -13,5 +13,4 @@ public class DeserialiazationDemo {
 		Student s=(Student) oin.readObject();
 		System.out.println(s);
 	}
-
 }
