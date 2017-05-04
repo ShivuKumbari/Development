@@ -24,9 +24,9 @@
 		<class>com.common.entities.Organization</class>
 
 		<properties>
-			<property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@10.10.3.48:1521:EFDEVDB" />
-			<property name="javax.persistence.jdbc.user" value="EFILER_APPN" />
-			<property name="javax.persistence.jdbc.password" value="EFILER" />
+			<property name="javax.persistence.jdbc.url" value="" />
+			<property name="javax.persistence.jdbc.user" value="" />
+			<property name="javax.persistence.jdbc.password" value="" />
 			<property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
 			<property name="eclipselink.logging.level" value="FINE" />
 			<property name="eclipselink.ddl-generation" value="create-tables" />
