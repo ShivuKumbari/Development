@@ -1,5 +1,12 @@
 package com.designpatterns.examples;
 
+import java.io.IOException;
+
+
+
+
+
+
 public class Singleton {
 	
 	private static Singleton obj;
