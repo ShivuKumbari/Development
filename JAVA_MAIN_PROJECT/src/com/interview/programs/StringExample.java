@@ -4,10 +4,14 @@ public class StringExample {
 
 	public static void main(String[] args) {
 		String s1="SHIVU";
-		String s2="SHIVU";
+		String s2="Sachin";
+		s1="KUMBARI";
 		
-		System.out.println(s1.equals(s2));
-		System.out.println(s1==s2);
+/*		System.out.println(s1.equals(s2));
+		System.out.println(s1==s2);*/
+		System.out.println("s1 " +s1);
+		
+		System.out.println("s2 " + s2.concat("Hello"));
 		
 		String s3=new String("SHIVU");
 		String s4=new String("SHIVu");
